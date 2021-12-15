@@ -1,4 +1,4 @@
-import random
+import random, math
 
 # Field Numbers
 NAME = 0
@@ -15,3 +15,25 @@ ANIMALS = [
     ["cat","meow","black"],
     ["mouse","squeak","grey"]
 ]
+
+class Animal:
+
+    __slots__ = ["__name", "__sounds", "__color"]
+
+    def __init__(self, name,sound,color):
+
+        self.__name = name
+        self.__sounds = sound
+        self.__color = color
+    
+    def animals(self):
+        
+        
+    
+  
+    
+def main():
+    
+    
+
+main
